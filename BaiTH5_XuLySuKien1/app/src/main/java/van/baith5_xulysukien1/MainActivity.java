@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         nutTru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //gọi hàm xử lý trừ
+                //gọi hàm xử lý 
                 XULY_TRU();
             }
         });
