@@ -46,24 +46,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //gọi hàm xử lý trừ
                 XULY_TRU();
-                //xử lý trừ
-                //b.1 Lấy dữ liệu 2 số
-                //tìm editext 1 và 2
-
-                //Lấy dữ liệu từ 2 điều khiển trên
-                String soThu1 = editTextSo1.getText().toString();
-                String soThu2 = editTextSo2.getText().toString();
-                //chuyển từ chuỗi sang số
-                float soA = Float.parseFloat(soThu1);
-                float soB = Float.parseFloat(soThu2);
-                //tính toán
-                float Tong = soA - soB;
-                //Hiện kết quả
-
-                //chuẩn bị dữ liệu xuất biến thành dạng chuỗi
-                String chuoiKQ = String.valueOf(Tong);
-                //gắn kết quả lên điều khiển
-                editTextKQ.setText(chuoiKQ);
             }
         });
         nutNhan.setOnClickListener(new View.OnClickListener() {
@@ -71,24 +53,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Gọi hàm xử lý nhân
                 XULY_NHAN();
-                //xử lý nhân
-                //b.1 Lấy dữ liệu 2 số
-                //tìm editext 1 và 2
-
-                //Lấy dữ liệu từ 2 điều khiển trên
-                String soThu1 = editTextSo1.getText().toString();
-                String soThu2 = editTextSo2.getText().toString();
-                //chuyển từ chuỗi sang số
-                float soA = Float.parseFloat(soThu1);
-                float soB = Float.parseFloat(soThu2);
-                //tính toán
-                float Tong = soA * soB;
-                //Hiện kết quả
-
-                //chuẩn bị dữ liệu xuất biến thành dạng chuỗi
-                String chuoiKQ = String.valueOf(Tong);
-                //gắn kết quả lên điều khiển
-                editTextKQ.setText(chuoiKQ);
             }
         });
         nutChia.setOnClickListener(new View.OnClickListener() {
@@ -96,22 +60,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //gọi hàm chia
                 XULY_CHIA();
-                //b.1 Lấy dữ liệu 2 số
-                //tìm editext 1 và 2
-
-                //Lấy dữ liệu từ 2 điều khiển trên
-                String soThu1 = editTextSo1.getText().toString();
-                String soThu2 = editTextSo2.getText().toString();
-                //chuyển từ chuỗi sang số
-                float soA = Float.parseFloat(soThu1);
-                float soB = Float.parseFloat(soThu2);
-                //tính toán
-                float Tong = soA / soB;
-                //Hiện kết quả
-                //chuẩn bị dữ liệu xuất biến thành dạng chuỗi
-                String chuoiKQ = String.valueOf(Tong);
-                //gắn kết quả lên điều khiển
-                editTextKQ.setText(chuoiKQ);
             }
         });
     }
