@@ -18,4 +18,4 @@
 ## Bài Thực Hành : RecyclerView
 <img width="257" height="439" src="https://github.com/user-attachments/assets/80c1e155-b1a7-46f9-841f-f3b6da86031f"/>
 
->>>>>>> 5ef869ff9b22cb21f174d778984e2f922ba91c37
+
