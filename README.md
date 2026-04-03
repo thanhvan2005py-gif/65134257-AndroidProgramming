@@ -24,8 +24,8 @@
 ## Bài Thực Hành : Bottom
 ## Trang Chủ Home
 <img width="173" height="369" src="https://github.com/user-attachments/assets/1d8e21f0-6467-4d12-947d-cd139d5d2c37" />
-## Trang 1
+
 <img width="163" height="371" src="https://github.com/user-attachments/assets/5a6ba872-2c90-45da-a11d-a70cf7efbd1a" />
-## Trang 2
+
 <img width="169" height="374" src="https://github.com/user-attachments/assets/799df643-5d8f-4ae6-8559-ae0352c88cf2" />
 
