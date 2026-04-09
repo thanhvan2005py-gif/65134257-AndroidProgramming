@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -15,33 +18,11 @@ import android.view.ViewGroup;
  */
 public class ThreeFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public ThreeFragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ThreeFragment.
-     */
-    // TODO: Rename and change types and number of parameters
+    ListView lvDSMonAn;
+    ArrayList<MonAn> dsMonAn;
     public static ThreeFragment newInstance(String param1, String param2) {
         ThreeFragment fragment = new ThreeFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
     }
@@ -49,16 +30,32 @@ public class ThreeFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+
+        //Chuẩn bị dữ liệu
+        dsMonAn = new ArrayList<MonAn>();
+
+        dsMonAn.add(new MonAn("Cơm Tấm Sườn",25000,"Mô tả  đây",R.drawable.cts));
+        dsMonAn.add(new MonAn("Cơm Sườn Trứng",27000,"Mô tả  đây",R.drawable.cstrung));
+        dsMonAn.add(new MonAn("Gà Xối mở",30000,"Mô tả  đây",R.drawable.cg));
+        dsMonAn.add(new MonAn("Sườn Bì Chả",32000,"Mô tả  đây",R.drawable.sbc));
+        dsMonAn.add(new MonAn("Cơm Tấm Đặc Biệt",35000,"Mô tả  đây",R.drawable.db));
+        //
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_three, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_three, container, false);
+
+        lvDSMonAn = view.findViewById(R.id.lvDSMonAn);
+
+        MonAnAdapter adapter = new MonAnAdapter(getContext(), dsMonAn);
+        lvDSMonAn.setAdapter(adapter);
+
+        return view;
+
     }
 }
