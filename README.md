@@ -18,4 +18,14 @@
 ## Bài Thực Hành : RecyclerView
 <img width="257" height="439" src="https://github.com/user-attachments/assets/80c1e155-b1a7-46f9-841f-f3b6da86031f"/>
 
+## Bài Thực Hành : Fragment
+<img width="172" height="374" src="https://github.com/user-attachments/assets/c054ca7c-a073-4204-b6c9-4fe5d478df12" />
+
+## Bài Thực Hành : Bottom
+
+<img width="173" height="369" src="https://github.com/user-attachments/assets/1d8e21f0-6467-4d12-947d-cd139d5d2c37" />
+
+<img width="163" height="371" src="https://github.com/user-attachments/assets/5a6ba872-2c90-45da-a11d-a70cf7efbd1a" />
+
+<img width="169" height="374" src="https://github.com/user-attachments/assets/799df643-5d8f-4ae6-8559-ae0352c88cf2" />
 
