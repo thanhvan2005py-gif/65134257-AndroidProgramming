@@ -45,13 +45,15 @@ public class MainActivity extends AppCompatActivity {
                 else if (itemId == R.id.nav_cau4) {
                     selectedFragment = new Cau4Fragment();
                 }
+                else if (itemId == R.id.nav_cau5) {
+                    selectedFragment = new Cau5Fragment();
+                }
                 if (selectedFragment != null) {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.fragmentSpace, selectedFragment)
                             .commit();
                 }
                 return true;
-
             }
         });
     }
