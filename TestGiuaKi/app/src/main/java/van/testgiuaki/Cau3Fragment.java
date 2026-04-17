@@ -30,11 +30,12 @@ public class Cau3Fragment extends Fragment {
         //Khởi tạo dữ liệu
 
         list = new ArrayList<LandScape>();
-        list.add (new LandScape("flaghanoi","Cột cờ Hà Nội","Thời Gian: 2019"));
-        list.add(new LandScape("eiffel","Tháp Eiffel","Thời Gian: 2019"));
-        list.add(new LandScape("buckingham","Cung điện Buckingham","Thời Gian: 2019"));
-        list.add(new LandScape("nhatrang","Nha Trang","Thời Gian: 2019"));
-        list.add(new LandScape("haugiang","Hậu Giang","Thời Gian: 2019"));
+        list.add (new LandScape("flaghanoi","Bài Thuốc 1","Thời Gian: 2019"));
+        list.add(new LandScape("eiffel","Bài Thuốc 2","Thời Gian: 2019"));
+        list.add(new LandScape("buckingham","Bài Thuốc 3","Thời Gian: 2019"));
+        list.add(new LandScape("nhatrang","Bài Thuốc 4","Thời Gian: 2019"));
+        list.add(new LandScape("haugiang","Bài Thuốc 5","Thời Gian: 2019"));
+        list.add(new LandScape("nhatrang","Bài Thuốc 6","Thời Gian: 2019"));
     }
 
     @Override

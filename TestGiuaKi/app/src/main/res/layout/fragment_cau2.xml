@@ -36,7 +36,7 @@
 
 
     <ListView
-        android:id="@+id/lvDanhSachTT"
+        android:id="@+id/lvDanhSachMonAn"
         android:layout_width="0dp"
         android:layout_height="702dp"
         android:layout_marginTop="72dp"

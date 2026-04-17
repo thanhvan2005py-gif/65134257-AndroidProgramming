@@ -1,5 +1,6 @@
 package van.testgiuaki;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -17,7 +18,7 @@ import java.util.ArrayList;
 
 public class Cau2Fragment extends Fragment {
 
-    ArrayList<String> dsTenTinhThanhVN;// Khai báo
+    ArrayList<String> dsTenMonAn;// Khai báo
     public static Cau2Fragment newInstance(String param1, String param2) {
         Cau2Fragment fragment = new Cau2Fragment();
         Bundle args = new Bundle();
@@ -37,33 +38,34 @@ public class Cau2Fragment extends Fragment {
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_cau2, container, false);
-        dsTenTinhThanhVN= new ArrayList<String>();// Tạo thể hiện cụ thể , xin mới
+        dsTenMonAn= new ArrayList<String>();// Tạo thể hiện cụ thể , xin mới
         //thêm dữ liệu
-        dsTenTinhThanhVN.add("Hà Nội");
-        dsTenTinhThanhVN.add("Thành phố Hồ Chí Minh");
-        dsTenTinhThanhVN.add("Đồng Nai");
-        dsTenTinhThanhVN.add("Bình Thuận");
-        dsTenTinhThanhVN.add("Ninh Thuận");
-        dsTenTinhThanhVN.add("Nha Trang");
+        dsTenMonAn.add("Món Ăn 1");
+        dsTenMonAn.add("Món Ăn 2");
+        dsTenMonAn.add("Món Ăn 3");
+        dsTenMonAn.add("Món Ăn 4");
+        dsTenMonAn.add("Món Ăn 5");
+        dsTenMonAn.add("Món Ăn 6");
 
-        ArrayAdapter<String> adapterTinhThanh;
-        adapterTinhThanh = new ArrayAdapter<>(getContext(),
+        ArrayAdapter<String> adapterMonAn;
+        adapterMonAn = new ArrayAdapter<>(getContext(),
                 R.layout.item_center,
                 R.id.tvItem,
-                dsTenTinhThanhVN
+                dsTenMonAn
         );
-        ListView lvTenTinhThanh = view.findViewById(R.id.lvDanhSachTT);
-        lvTenTinhThanh.setAdapter(adapterTinhThanh);
-        lvTenTinhThanh.setOnItemClickListener(BoLangNgheVaXL);
+        ListView lvTenMonAn = view.findViewById(R.id.lvDanhSachMonAn);
+        lvTenMonAn.setAdapter(adapterMonAn);
+        lvTenMonAn.setOnItemClickListener(BoLangNgheVaXL);
         return view;
     }
 
     AdapterView.OnItemClickListener BoLangNgheVaXL = new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
-            String strTenTinhChon = dsTenTinhThanhVN.get(i);
-            Toast.makeText(getContext(),strTenTinhChon,Toast.LENGTH_LONG).show();
-
+            String strTenMonAn = dsTenMonAn.get(i);
+            Intent intent = new Intent(getContext(), ChiTietMonAnActivity.class);
+            intent.putExtra("tenMon", strTenMonAn);
+            startActivity(intent);
         }
     };
 }

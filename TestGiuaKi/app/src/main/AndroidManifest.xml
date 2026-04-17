@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestGiuaKi">
         <activity
+            android:name=".ChiTietBaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietMonAnActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

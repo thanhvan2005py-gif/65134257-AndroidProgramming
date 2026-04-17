@@ -1,6 +1,11 @@
 package van.testgiuaki;
 
+import static androidx.core.content.ContextCompat.startActivity;
+
+import static java.security.AccessController.getContext;
+
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -71,13 +76,14 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Item
             //code ở đây
             int viTriDuocClick = getAdapterPosition();
             LandScape phanTuDuocclick = lsData.get(viTriDuocClick);
+            Intent intent = new Intent(v.getContext(), ChiTietBaiActivity.class);
             //bóc thông tin
             String ten = phanTuDuocclick.getLandCation();
             String mota = phanTuDuocclick.getMoTa();
             String tenFile = phanTuDuocclick.getLandImageFileName();
             //toast tên
-            String chuoiThongBao = "Bạn vừa click vào :" + ten;
-            Toast.makeText(v.getContext(),chuoiThongBao,Toast.LENGTH_SHORT).show();
+            intent.putExtra("tenthuoc", ten);
+            v.getContext().startActivity(intent);
         }
     }
 }
