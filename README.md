@@ -1,5 +1,20 @@
 # 65134257-AndroidProgramming
 
+## Bài Thi Giữa Kì
+## Chức Năng 1
+<img width="170" height="377" src="https://github.com/user-attachments/assets/71ba25e7-cc5e-4071-9ceb-868eb4cde756" />
+
+## Chức Năng 2
+<img width="173" height="377" src="https://github.com/user-attachments/assets/b40c69b5-7012-44ed-9c67-95f0e980a810" />
+
+## Chức Năng 3
+<img width="173" height="374" src="https://github.com/user-attachments/assets/3ec4c1e1-661f-4e0d-9d90-980d6d6091d4" />
+
+## Chức Năng 4
+<img width="167" height="374" src="https://github.com/user-attachments/assets/497c6872-15a5-4579-b915-c63c38b70840" />
+
+
+
 ## Bài Thực Hành : Xử Lý Cộng
 <img width="227" height="421" src="https://github.com/user-attachments/assets/0049bfc1-a225-4afb-acca-df0b7a8a6bc0"/>
 
@@ -28,21 +43,6 @@
 <img width="163" height="371" src="https://github.com/user-attachments/assets/5a6ba872-2c90-45da-a11d-a70cf7efbd1a" />
 
 <img width="169" height="374" src="https://github.com/user-attachments/assets/799df643-5d8f-4ae6-8559-ae0352c88cf2" />
-
-## Bài Thi Giữa Kì
-## Chức Năng 1
-<img width="170" height="377" src="https://github.com/user-attachments/assets/71ba25e7-cc5e-4071-9ceb-868eb4cde756" />
-
-## Chức Năng 2
-<img width="173" height="377" src="https://github.com/user-attachments/assets/b40c69b5-7012-44ed-9c67-95f0e980a810" />
-
-## Chức Năng 3
-<img width="173" height="374" src="https://github.com/user-attachments/assets/3ec4c1e1-661f-4e0d-9d90-980d6d6091d4" />
-
-## Chức Năng 4
-<img width="167" height="374" src="https://github.com/user-attachments/assets/497c6872-15a5-4579-b915-c63c38b70840" />
-
-
 
 
 
