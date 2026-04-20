@@ -42,15 +42,15 @@ public class Cau2Fragment extends Fragment {
         dsTinh= new ArrayList<String>();// Tạo thể hiện cụ thể , xin mới
         //thêm dữ liệu
         dsTinh.add("Nguyễn Thành Văn");
-        dsTinh.add("Hà Nội");
+        dsTinh.add("Thành Phố Hà Nội");
         dsTinh.add("Thành Phố HCM");
-        dsTinh.add("Thành Phố HCM");
-        dsTinh.add("Thành Phố HCM");
-        dsTinh.add("Thành Phố HCM");
-        dsTinh.add("Thành Phố HCM");
-        dsTinh.add("Thành Phố HCM");
-        dsTinh.add("Thành Phố HCM");
-        dsTinh.add("Thành Phố HCM");
+        dsTinh.add("Thành Phố Đà Nẵng");
+        dsTinh.add("Thành Phố Nha Trang");
+        dsTinh.add("Thành Phố Tuy Hòa");
+        dsTinh.add("Thành Phố Hưng Yên");
+        dsTinh.add("Thành Phố Bình Dương");
+        dsTinh.add("Thành Phố Hà Giang");
+        dsTinh.add("Thành Phố Hà Tĩnh");
 
 
         ArrayAdapter<String> adapterMonAn;
