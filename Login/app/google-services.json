@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "88076979391",
+    "project_id": "login-a381f",
+    "storage_bucket": "login-a381f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88076979391:android:8217f1d7116da09a9d4a0a",
+        "android_client_info": {
+          "package_name": "vn.edu.tinhoc123.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw71vhlZ-BywCekgTlXVdnuilxZuUKziY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
